@@ -1,0 +1,8 @@
+FROM dipalmal/ngnix_lb:latest
+COPY . /usr/share/ngnix/html
+EXPOSE 8080
+
+_______________________
+
+FROM ngnix:alpine
+COPY . /usr/share/ngnix/html
