@@ -1,0 +1,2 @@
+docker build -t Newname .
+docker run -d -p 8090:8090 IMG_ID
