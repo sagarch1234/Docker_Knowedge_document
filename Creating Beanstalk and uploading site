@@ -1,0 +1,14 @@
+step 1 : Intall Python
+pip intall python
+
+step 2: Install AWS CLI
+
+step 3 : install EB CLI
+(* pip install virtualenv)
+
+step 4 : eb init 
+         eb create
+         (* Ensure that docker file is there)
+         
+         
+         
